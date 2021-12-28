@@ -1,0 +1,218 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+    .container-fluid{
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+        background: #0e0e0ee6;
+
+      }
+    .caption{
+        position: relative;
+    }
+    ul.list-unstyled.components {
+        padding-left: 10px;
+        position: sticky;
+        top: 35%;
+    }   
+    button#sidebarCollapse {
+        background: #3b3b3b;
+        color: #fff;
+        position: sticky;
+        top: 90%;
+    }
+
+    #sidebar {
+        min-width: 200px;
+        max-width: 200px;
+        background: #3b3b3b;
+        color: #fff;
+        transition: all 0.3s;
+        text-align: center;
+        position: relative;
+        
+    }
+
+    #sidebar.active {
+        min-width: 64px;
+        max-width: 64px;
+        transition: .3s;
+    }
+
+
+
+    #sidebar.active span {
+        display: none;
+    }
+
+
+    #sidebar ul li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #sidebar ul li a {
+        padding: 10px;
+        display: block;
+        text-align:none;
+        text-decoration: none;
+    }
+    #sidebar.active ul li a {
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 10px;
+        height: 40px;
+        color: #fff;
+    }
+
+    #sidebar.active ul li a :hover  {
+    display: inline-block;
+    }
+
+    #sidebar.active ul li a i {
+        margin-right: 0;
+        display: block;
+        font-size: 1.8em;
+        margin-bottom: 5px;
+    }
+
+    
+    span.sb-span {
+        padding: 10px;
+    }
+
+    #sidebar ul li a:hover {
+        color: #fff;
+        background: #072284;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        
+    }
+
+    #sidebar ul li a i {
+        margin-right: 10px;
+    }
+
+    ul ul a {
+        font-size: 0.9em !important;
+        padding-left: 30px !important;
+        background: #6d7fcc;
+    }
+
+    /* END SIDEBAR */
+
+    img.avt{
+        height: 400px;
+        width: 100%;
+    }
+    img.avt1 {  
+        height: 150px;
+        width: 100%;
+
+    }
+    img.avt2 { 
+        height: 200px;
+        width: 100%;
+        border-radius: 0;
+
+    }
+    img.avt3 {   
+        height: 390px;
+        width: 100%;
+        border-radius: 0pt;
+    }
+    img.avt4{
+        height: 70px;
+        position: absolute;
+        margin-left: 55%;
+        margin-top: 4%;
+        border-radius: 0;
+    }
+    img.avt5 {
+        height: 410px;
+        width: 100%;
+        border-radius: 0;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }   
+    
+    a#box-1,a#box-2,a#box-3,a#box-4,a#box-5,a#box-6 {
+        color: #e2dbdb;
+        padding-left: 0px;
+        padding-right: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a#box-1.active,a#box-2.active,a#box-3.active,a#box-4.active,a#box-5.active,a#box-6.active {
+        color: #3a9df4;
+        font-weight: bold;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+    
+}
+@media  (max-width: 320px) {
+   .container-fluid{
+       padding: 0;
+       padding-top: 40px;
+   }
+   html, body {
+    height: 100%;
+    margin: 0;
+    background: #0e0e0ee6;
+  }
+   .row{
+    justify-content: space-around;
+   }
+   #sidebar.active{
+       display: none;
+   }
+   div#content-left-1{
+       width: 300px;
+       
+   }
+   .col-lg-3{
+       margin: 0;
+   }
+   img{
+       width: 300px;
+       height: 200px;
+   }
+   .details img {
+    width: 300px;
+    height: auto;
+    }
+   .container{
+   
+    padding-top: 60px;
+   }
+   #hotline,#btn-hotline{
+       display: none;
+   }
+   p{
+       margin: 0;
+   }
+   ul.navbar-header{
+       padding-left: 60px;
+   }
+   #box-tim-kiem #text-box-tim-kiem {
+       width: 90%;
+       left: 5%;
+   }
+   #box-tim-kiem label{
+       display: none;
+   }
+   #nut-tim-kiem {
+    height: 58px;
+    right: 7%;
+    }
+    li#search{
+        margin-right:10px;
+    }
+}
